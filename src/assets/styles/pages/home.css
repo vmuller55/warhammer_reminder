@@ -1,0 +1,19 @@
+.intro {
+  background-color: rgb(46, 46, 46);
+  color: beige;
+  text-align: center;
+  padding-bottom: 150px;
+}
+.intro h1 {
+  padding-top: 50px;
+  font-size: 50px;
+}
+.intro h2 {
+  margin: 50px;
+  font-size: 25px;
+}
+.intro p {
+  margin: auto;
+  max-width: 400px;
+  font-size: 20px;
+}/*# sourceMappingURL=home.css.map */

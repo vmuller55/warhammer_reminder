@@ -1,0 +1,23 @@
+footer {
+  color: beige;
+  background-color: rgb(46, 46, 46);
+  box-shadow: -10px -100px 1000px purple;
+  height: 10px;
+}
+footer ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+footer ul li {
+  margin-left: 100px;
+}
+footer ul li img {
+  width: 50px;
+  margin-left: 30px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: beige;
+}/*# sourceMappingURL=footer.css.map */
