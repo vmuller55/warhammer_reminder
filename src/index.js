@@ -4,6 +4,8 @@ import '././assets/styles/main.scss';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './components/Header'
 import Home from './pages/Home.jsx';
+import CreateArmyList from './pages/Create-list';
+import Order from './pages/Order';
 import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 
@@ -14,7 +16,8 @@ root.render(
       <Header/>
       <Routes>
           <Route index element={<Home/>}/>
-          <Route path="create-list" element={<create-list/>}/>
+          <Route path="create-list" element={<CreateArmyList/>}/>
+          <Route path="ordre" element={<Order/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
