@@ -1,0 +1,63 @@
+.pointBox{
+    font-size: 24px;
+    color: beige;
+    text-align: center;
+    margin-bottom: 100px;
+    #rangePoint{
+        width: 30%;
+        margin: 50px;
+    }
+}
+
+.addUnit{
+    font-size: 24px;
+    color: beige;
+    text-align: center;
+    margin-bottom: 100px;
+    background-color: rgb(46, 46, 46);
+    ul{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        li{
+            margin: 30px;
+            height: 100px;
+            width: 200px;
+            transition: scale ease-in-out 0.2s;
+            box-shadow: 0px 0px 15px beige;
+            position: relative;
+            &:hover{
+                scale: 150%;
+                background-color: beige;
+                color: rgb(46, 46, 46);
+                cursor: pointer;
+            }
+            p{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                font-size: 20px;
+            }
+        }
+
+    }
+
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    .unitAdded{
+        &-active{
+            background-color: aqua;
+            padding-right: 200px;
+        }
+        &-inactive{
+            display: none;
+        }
+    }
+}
