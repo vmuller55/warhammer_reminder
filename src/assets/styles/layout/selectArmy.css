@@ -1,0 +1,49 @@
+.selectArmy {
+  color: beige;
+  text-align: center;
+  margin: 50px;
+}
+.selectArmy h2 {
+  margin: 50px;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.selectArmy h3 {
+  font-size: 28px;
+  margin-bottom: 100px;
+}
+.selectArmy ul {
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(46, 46, 46);
+  width: 100%;
+  flex-wrap: wrap;
+}
+.selectArmy ul a {
+  text-decoration: none;
+  color: beige;
+}
+.selectArmy ul li {
+  margin: 0px 50px 50px 50px;
+  font-size: 20px;
+  border: 1px solid beige;
+  min-height: 50px;
+  width: 150px;
+  transition: scale ease-in-out 0.2s;
+  box-shadow: 0px 0px 15px beige;
+  position: relative;
+}
+.selectArmy ul li p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+.selectArmy ul li:hover {
+  scale: 150%;
+  background-color: beige;
+  color: rgb(46, 46, 46);
+}/*# sourceMappingURL=selectArmy.css.map */

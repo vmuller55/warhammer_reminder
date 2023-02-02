@@ -1,7 +1,7 @@
-import "../assets/styles/components/points.scss"
+import "../../assets/styles/components/addUnits.scss"
 import React from "react"
 import { useState } from "react"
-import data from "../assets/data/stormcast.json"
+import data from "../../assets/data/stormcast.json"
 
 
 function Order () {

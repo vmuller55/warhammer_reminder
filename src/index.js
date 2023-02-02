@@ -5,7 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './components/Header'
 import Home from './pages/Home.jsx';
 import CreateArmyList from './pages/Create-list';
-import Order from './pages/Order';
+import OrderAllegeance from './pages/OrderAllegeance';
+import Stromcast from "./pages/orderArmy/Stormcast"
 import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 
@@ -17,7 +18,8 @@ root.render(
       <Routes>
           <Route index element={<Home/>}/>
           <Route path="create-list" element={<CreateArmyList/>}/>
-          <Route path="ordre" element={<Order/>}/>
+          <Route path="ordreAllegeance" element={<OrderAllegeance/>}/>
+          <Route path="Stormcast" element={<Stromcast/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
